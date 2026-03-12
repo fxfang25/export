@@ -1,0 +1,64 @@
+﻿/**
+ * 需要替换的变量列表：
+ * [[tabname]] = 表名
+ * [[key1type]] = 第一个关键字的类型，如int
+ * [[key1name]] = 第一个关键字的名字，如ID
+ * [[path]] = 输出目录
+ */
+using System;
+using System.Collections.Generic;
+using System.IO;
+
+namespace Logic.TabConfig
+{
+	public class [[tabname]]Mgr : CCfg1KeyMgrTemplate<[[tabname]]Mgr, [[key1type]], [[tabname]]>
+	{
+		public static readonly string FILE_PATH = "[[path]]";
+#pragma warning disable
+		private void __unused()
+		{
+			Dictionary<[[key1type]], [[tabname]]> _un = new Dictionary<[[key1type]], [[tabname]]>();
+		}
+#pragma warning restore
+	}
+
+	//[[ENUM_DEFINITIONS]]
+	
+	public class [[tabname]] : ITabItemWith1Key<[[key1type]]>
+	{
+		//public static readonly string __[[列名]] = "[[列名]]";
+
+		//public [[列类型]] [[列名]] { get; private set; }
+
+		// 有_x_y的列要转化成数组，x是总数，y是第几个（从0开始—）如HitID_3_0
+		//public [[列类型]][] [[列名前缀]] { get; private set; }
+
+		public [[tabname]]()
+		{
+			// 需要初始化数组，如HitID_3_0
+			// [[列名前缀]] = new [[列类型]][总数];
+		}
+
+		public static [[tabname]] GetConfig([[key1type]] key1)
+		{
+			return [[tabname]]Mgr.instance.GetConfig(key1);
+		}
+
+		public [[key1type]] GetKey1() { return [[key1name]]; }
+
+		public bool ReadItem(TabFile tf)
+		{
+			//	[[列名]] = tf.Get<[[列类型]]>(__[[列名]]);
+			ID = tf.Get<int>(__ID);
+			return true;
+		}
+		
+		public bool ReadItem(BinaryReader tf)
+		{
+			//	[[列名]] = tf.Read[[列类型]]);
+			ID = tf.ReadInt32();
+			return true;
+		}
+	}
+}
+

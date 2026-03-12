@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Logic.TabConfig
+{
+	//	public class [[tabname]]Mgr : CCfg1KeyMgrTemplate<[[tabname]]Mgr, [[keytype]], [[tabname]]>
+	public class SkillConfigInfoMgr : CCfg1KeyMgrTemplate<SkillConfigInfoMgr, int, SkillConfigInfo>
+	{
+#pragma warning disable
+		private void __unused()
+		{
+			Dictionary<int, SkillConfigInfo> _un = new Dictionary<int, SkillConfigInfo>();
+		}
+#pragma warning restore
+	}
+
+	//	public class [[tabname]] : ITabItemWith1Key<[[keytype]]>
+	
+	public class SkillConfigInfo : ITabItemWith1Key<int>
+	{
+		//public static readonly string __[[列名]] = "[[列名]]";		// [[列的简要注释]]
+		public static readonly string __ID
+
+		//public [[列类型]] [[列名]] { get; private set; }
+		public int ID { get; private set; }
+		// 有_x_y的列要转化成数组，x是总数，y是第几个（从0开始—）如HitID_3_0
+		//public [[列类型]][] [[列名前缀]] { get; private set; }
+
+		//	public [[tabname]](){}
+		public SkillConfigInfo()
+		{
+			// 需要初始化数组，如HitID_3_0
+			// [[列名前缀]] = new [[列类型]][总数];
+			HitID = new int[3];
+		}
+
+		//	public [[keytype]] GetKey1() { return [[keyname]]; }
+		public int GetKey1() { return ID; }
+
+		public bool ReadItem(TabFile tf)
+		{
+			//	[[列名]] = tf.Get<[[列类型]]>(__[[列名]]);
+			ID = tf.Get<int>(__ID);
+			
+			return true;
+		}
+		
+		//自定义类部分
+	}
+}
+
