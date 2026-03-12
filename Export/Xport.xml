@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+
+	<Item Sheet="Help_Info" Workbook="Guide.xls" Discription="帮助页面表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Help_Info.txt</File>
+		</Export>
+	</Item>
+	
+	<Item Sheet="Attribute_Info" Workbook="Attribute.xls" Discription="属性表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Attribute_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Attribute_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Player_Info" Workbook="Player.xls" Discription="Player表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Player_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Player_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="PlayerAttr_Info" Workbook="Player.xls" Discription="主角属性表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\PlayerAttr_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\PlayerAttr_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Dragon_Info" Workbook="Dragon.xls" Discription="Dragon表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Dragon_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Dragon_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="DragonAttr_Info" Workbook="Dragon.xls" Discription="龙属性表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\DragonAttr_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\DragonAttr_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="EquipEnchant" Workbook="EquipEnchant.xls" Discription="附魔表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipEnchant.txt</File>
+			<File>[Distribute]\Server\Settings\Config\EquipEnchant.txt</File>
+		</Export>
+	</Item>
+	<Item Sheet="EquipRefine" Workbook="EquipRefine.xls" Discription="淬炼表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipRefine.txt</File>
+			<File>[Distribute]\Server\Settings\Config\EquipRefine.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="NPC_Info" Workbook="NPC.xls" Discription="NPC表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\NPC_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\NPC_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="NPC_Schedule" Workbook="NPC.xls" Discription="NPC_Schedule表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\NPC_Schedule.txt</File>
+			<File>[Distribute]\Server\Settings\Config\NPC_Schedule.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Holiday_Info" Workbook="NPC.xls" Discription="Holiday_Info表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Holiday_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Holiday_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Site_Info" Workbook="Site.xls" Discription="Site_Info表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Site_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Site_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Value_Info" Workbook="Value.xls" Discription="Value表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Value_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Value_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="StringValue_Info" Workbook="Value.xls" Discription="Value表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\StringValue_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\StringValue_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="DataVersion_Info" Workbook="Value.xls" Discription="Value表">
+		<Export>
+			<File>[Distribute]\Server\Settings\Config\DataVersion_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Force_Info" Workbook="Force.xls" Discription="Force表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Force_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Force_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Treasure_Info" Workbook="Treasure.xls" Discription="Treasure表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Treasure_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Treasure_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ClimbObject_Info" Workbook="Treasure.xls" Discription="ClimbObject表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ClimbObject_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ClimbObject_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Skill_Info" Workbook="Skill.xls" Discription="Skill">
+		<Export>
+		  <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Skill\Skill_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Skill_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Skill_Action_Info" Workbook="Skill.xls" Discription="Skill_Action表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Skill\Skill_Action_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Buff_Info" Workbook="Skill.xls" Discription="Buff_Info表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Skill\Buff_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Buff_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="SkillCarrier_Info" Workbook="SkillCarrier.xls" Discription="SkillCarrier表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\SkillCarrier_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Location" Workbook="Location.xls" Discription="Location表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Location.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="SceneObject_Info" Workbook="SceneObject.xls" Discription="SceneObject表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\SceneObject_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\SceneObject_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemConfigInfo" Workbook="Item.xlsx" Discription="道具表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemConfigInfo.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemConfigInfo.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="SuitInfo" Workbook="Item.xlsx" Discription="套装表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\SuitInfo.txt</File>
+			<File>[Distribute]\Server\Settings\Config\SuitInfo.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="RandomGroup_Info" Workbook="RandomGroup.xlsx" Discription="随机组表">
+		<Export>
+			<File>[Distribute]\Server\Settings\Config\RandomGroup_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Map_Info" Workbook="MapSetting.xls" Discription="Map表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Map_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Map_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Block_Info" Workbook="MapSetting.xls" Discription="Block表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Block_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Space_Info" Workbook="MapSetting.xls" Discription="SpaceSetting表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Space_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Space_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Area_Info" Workbook="MapSetting.xls" Discription="AreaInfo表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Area_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Area_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Camp_Info" Workbook="MapSetting.xls" Discription="CampInfo表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Camp_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Camp_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Activity_Time" Workbook="Activity.xls" Discription="活动时间表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Activity_Time.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Activity_Time.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Language_cn_Info" Workbook="Language_cn.xls" Discription="文字列表-cn">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Language_cn.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Language_cn.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Language_en_Info" Workbook="Language_cn.xls" Discription="文字列表-en">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Language_en.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Language_en.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="MessageUI_Info" Workbook="MessageUI.xls" Discription="UI使用文字资源">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\MessageUI_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\MessageUI_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="CharTopIcon_Info" Workbook="CharTopIcon.xls" Discription="角色头顶图标">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\CharTopIcon_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Formula_Info" Workbook="Formula.xls" Discription="配方表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Formula_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\Formula_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="StoreProduct_Info" Workbook="Store.xlsx" Discription="商店表">
+		<Export>
+			<File>[Distribute]\Server\Settings\Config\StoreProduct_Info.txt</File>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\StoreProduct_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="StoreRecycle_Info" Workbook="Store.xls" Discription="商店回收表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\StoreRecycle_Info.txt</File>
+			<File>[Distribute]\Server\Settings\Config\StoreRecycle_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="WorldEvent_Info" Workbook="WorldEvent.xlsx" Discription="事件表">
+		<Export>
+			<File>[Distribute]\Server\Settings\Config\WorldEvent_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="Guide_Info" Workbook="Guide.xlsx" Discription="引导表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\Guide_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="NPC_Intro" Workbook="NPC.xlsx" Discription="NPC介绍表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\NPC_Intro.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="AbilityInfo" Workbook="Ability.xlsx" Discription="能力表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\AbilityInfo.txt</File>
+			<File>[Distribute]\Server\Settings\Config\AbilityInfo.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="PlayerRepu_Info" Workbook="Player.xlsx" Discription="玩家升级声望表">
+		<Export>
+			<File>[Distribute]\Server\Settings\Config\PlayerRepu_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemColor" Workbook="Item.xlsx" Discription="服装染色表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemColor.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemColor.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemExp" Workbook="Item.xlsx" Discription="部件升级表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemExp.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemExp.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="SkillAttrDesc_Info" Workbook="Skill.xlsx" Discription="技能属性描述表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\SkillAttrDesc_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="EquipmentAttr" Workbook="Item.xlsx" Discription="随机词条表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipmentAttr.txt</File>
+			<File>[Distribute]\Server\Settings\Config\EquipmentAttr.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemLevelUp" Workbook="ItemLevelUp.xlsx" Discription="升级表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemLevelUp.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemLevelUp.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemUpgrade" Workbook="Item.xlsx" Discription="突破表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemUpgrade.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemUpgrade.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemRandomEntry" Workbook="ItemLevelUp.xlsx" Discription="随机词条表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemRandomEntry.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemRandomEntry.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="TalentAttr" Workbook="Ability.xlsx" Discription="天赋属性表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\TalentAttr.txt</File>
+			<File>[Distribute]\Server\Settings\Config\TalentAttr.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="ItemScore" Workbook="PowerScore.xls" Discription="物品赋分表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ItemScore.txt</File>
+			<File>[Distribute]\Server\Settings\Config\ItemScore.txt</File>
+		</Export>
+	</Item>
+	<Item Sheet="TalentScore" Workbook="PowerScore.xls" Discription="天赋赋分表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\TalentScore.txt</File>
+			<File>[Distribute]\Server\Settings\Config\TalentScore.txt</File>
+		</Export>
+	</Item>
+	<Item Sheet="PetStandard" Workbook="PowerScore.xls" Discription="龙的战力标准表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\PetStandard.txt</File>
+			<File>[Distribute]\Server\Settings\Config\PetStandard.txt</File>
+		</Export>
+	</Item>
+	<Item Sheet="PlayerStandard" Workbook="PowerScore.xls" Discription="人的战力标准表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\PlayerStandard.txt</File>
+			<File>[Distribute]\Server\Settings\Config\PlayerStandard.txt</File>
+		</Export>
+	</Item>
+	<Item Sheet="MapStandard" Workbook="MapScore.xls" Discription="秘境战力需求表">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\MapStandard.txt</File>
+			<File>[Distribute]\Server\Settings\Config\MapStandard.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="RoutePoint_Info" Workbook="RoutePoint.xls" Discription="路点等客户端参照物">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\RoutePoint_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="PetLevelup" Workbook="LevelUp.xls" Discription="龙升级">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\PetLevelup.txt</File>
+			<File>[Distribute]\Server\Settings\Config\PetLevelup.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="PlayerLevelup" Workbook="LevelUp.xls" Discription="玩家升级">
+		<Export>
+			<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\PlayerLevelup.txt</File>
+			<File>[Distribute]\Server\Settings\Config\PlayerLevelup.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="AnimatorState_Info" Workbook="AnimatorState.xls" Discription="动作状态">
+		<Export>
+		<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\AnimatorState_Info.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="MoreAnimatorStateClips" Workbook="AnimatorState.xls" Discription="动作状态中需要替换的其他动作片段">
+		<Export>
+		<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\MoreAnimatorStateClips.txt</File>
+		</Export>
+	</Item>
+
+	<Item Sheet="TransAnimatorStateClip" Workbook="AnimatorState.xls" Discription="动作状态切换动作">
+		<Export>
+		<File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\TransAnimatorStateClip.txt</File>
+		</Export>
+	</Item>
+
+  <Item Sheet="MoreAnimatorStateMotions" Workbook="AnimatorState.xls" Discription="动作状态更多的Motion替换">
+    <Export>
+      <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\MoreAnimatorStateMotions.txt</File>
+    </Export>
+  </Item>
+
+  <Item Sheet="ByTypeAnimationInfo" Workbook="AnimatorState.xls" Discription="装备和角色对应的AnimatorState">
+    <Export>
+      <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\ByTypeAnimationInfo.txt</File>
+    </Export>
+  </Item>
+
+  <Item Sheet="EquipLvUpCost" Workbook="DragonEquip.xlsx" Discription="宠物部件升级消耗表">
+    <Export>
+      <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipLvUpCost.txt</File>
+      <File>[Distribute]\Server\Settings\Config\EquipLvUpCost.txt</File>
+    </Export>
+  </Item> 
+
+  <Item Sheet="EquipStarUp" Workbook="DragonEquip.xlsx" Discription="宠物部件升星表">
+    <Export>
+      <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipStarUp.txt</File>
+      <File>[Distribute]\Server\Settings\Config\EquipStarUp.txt</File>
+    </Export>
+  </Item> 
+
+  <Item Sheet="EquipUpgrade" Workbook="DragonEquip.xlsx" Discription="宠物部件进阶表">
+    <Export>
+      <File>[Client]\Assets\StreamingAssets\ConfigFiles\Config\EquipUpgrade.txt</File>
+      <File>[Distribute]\Server\Settings\Config\EquipUpgrade.txt</File>
+    </Export>
+  </Item> 
+
+</Settings>
