@@ -1,5 +1,5 @@
 '=================================================================================
-' 开始
+' 开发者：猎人幻想
 '=================================================================================
 #If Win64 Then
     Private Declare PtrSafe Function SHBrowseForFolder Lib "shell32.dll" Alias "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As Long
